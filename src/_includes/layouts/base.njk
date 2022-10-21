@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    {# This is the base template for the site–other templates extend this one #}
+    
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Your new 11ty blog" />
+    <link rel="stylesheet" type="text/css" href="/public/style.css" />
+    {% seo "" %}
+  </head>
+  <body>
+    <header>
+  <a href="/" role="banner" style="border-bottom: none">Eric Treacy</a>
+  <nav role="navigation">
+    <ul>
+      <li><a href="/posts/">Writing</a></li>
+      <li><a href="/photos/">Photos</a></li>
+      <li><a href="/reading/">Reading</a></li>
+      <li><a href="/projects/">Projects</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+  </nav>
+</header>
+  <main>
+    
+    {# Page or post content will appear here #}
+  
+    {{ content | safe }}
+
+     <footer role="contentinfo">
+Designed, written and built by Eric Treacy. This site collects no data or analytics.
+He can be distracted via good ol' fashioned <a href="mailto:mail@etreacy.me">E-mail</a>,
+or sometimes <a href="https://twitter.com/intent/follow?screen_name=erictreacy&user_id=77047149">Twitter</a> or <a href="//github.com/erictreacy">GitHub</a>.
+It's currently year 2022.️
+</footer>
+    
+  </main>
+   
+  </body>
+</html>
