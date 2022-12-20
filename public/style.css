@@ -3,8 +3,7 @@
 }
 
 :root {
-  --sans: 
-    sans-serif;
+  --sans: system-ui, sans-serif;
   --etreacy-ui-colors-text: #333 !important;
   --etreacy-ui-colors-background: #ffffff !important;
   --etreacy-ui-colors-primary: #333;
